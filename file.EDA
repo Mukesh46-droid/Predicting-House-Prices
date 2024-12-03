@@ -1,0 +1,7 @@
+# Check dataset structure
+print(df.info())
+print(df.describe())
+
+# Visualize relationships
+sns.pairplot(df)
+plt.show()
